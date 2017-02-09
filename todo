@@ -1,9 +1,13 @@
 Testes a serem realizados:
-    ✔ Teste de layout com o photon @done (07-02-17 07:51)
-    ✔ Tentado incluir menu.. @done (08-02-17 07:36)
-    ✔ Testar abrir uma nova janela @done (08-02-17 07:48)
-    ✔ Testar comunicação entre as janelas @done (08-02-17 08:11)
-    ☐ Testes com TDD
+    Etapa 1:
+        ✔ Teste de layout com o photon @done (07-02-17 07:51)
+        ✔ Tentado incluir menu.. @done (08-02-17 07:36)
+        ✔ Testar abrir uma nova janela @done (08-02-17 07:48)
+        ✔ Testar comunicação entre as janelas @done (08-02-17 08:11)
+        ✔ Testes com TDD @done (09-02-17 16:27)
+    Etapa 2:
+        ☐ Planejar etapa
+
 
 
 Comandos:
