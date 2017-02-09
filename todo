@@ -1,0 +1,11 @@
+Testes a serem realizados:
+    ✔ Teste de layout com o photon @done (07-02-17 07:51)
+    ✔ Tentado incluir menu.. @done (08-02-17 07:36)
+    ✔ Testar abrir uma nova janela @done (08-02-17 07:48)
+    ✔ Testar comunicação entre as janelas @done (08-02-17 08:11)
+    ☐ Testes com TDD
+
+
+Comandos:
+    cd D:\Programacao\git\electron-quick-start
+    npm start
