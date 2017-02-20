@@ -9,8 +9,12 @@ Testes a serem realizados:
         ✔ Planejar etapa @done (09-02-17 16:37)
         ✔ Testes com angular @done (10-02-17 07:40)
         ✔ Listar databases, em html, formato navegavel e bonito @done (13-02-17 07:52)
-        ☐ unit test buscar informações como databases e tabelas
+        ✔ unit test buscar informações como databases e tabelas @done (20-02-17 07:55)
     Etapa 3:
+        ☐ Lista de databases em formato explorer
+            ☐ Lista de conexao
+            ☐ Lista de Bancos
+            ☐ Lista de tabelas
 
 
 Milestones:
@@ -27,3 +31,4 @@ Milestones:
 Comandos:
     cd D:\Programacao\git\electron-quick-start
     npm start
+    npm test
