@@ -1,7 +1,7 @@
 # electron
 
-Olá, este é um git sobre o electron,
+OlÃ¡ este Ã© um git sobre o electron,
 framework javascript para dev multiplataforma
 
-Ver o arquivo: todo - para maiores informações
+Ver o arquivo: todo - para maiores informaÃ§Ãµes
 

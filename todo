@@ -29,6 +29,7 @@ Milestones:
 
 
 Comandos:
-    cd D:\Programacao\git\electron-quick-start
+    d:\ | d:\programacao\git\electron
+    npm update
     npm start
     npm test

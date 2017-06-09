@@ -38,12 +38,13 @@
                     <nav class="nav-group">
                         <h5 class="nav-group-title">Conexões</h5>
 
-                        <treecontrol class="tree-classic"
-                           tree-model="dataForTheTree"
-                           options="treeOptions"
-                           on-selection="showSelected(node)"
-                           selected-node="node1">
-                           employee: {{node.name}} age {{node.age}}
+                        <treecontrol
+                            class="tree-classic"
+                            tree-model="dataForTheTree"
+                            options="treeOptions"
+                            on-selection="showSelected(node)"
+                            selected-node="node1">
+                            {{node.name}}
                         </treecontrol>
                     </nav>
 
