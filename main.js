@@ -3,10 +3,12 @@ const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
 const path = require('path');
 const url = require('url');
+const objMysql = require('mysql');
+const mysql = require('./services/mysql.js');
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let mainWindow;
+var mainWindow;
 
 function createWindow () {
     mainWindow = new BrowserWindow({width: 800, height: 600});
@@ -58,7 +60,7 @@ app.on(
 );
 
 exports.openNewWindow = function() {
-    let win = new BrowserWindow(
+    var win = new BrowserWindow(
         {
             width: 800,
             height: 600,
@@ -91,3 +93,23 @@ ipcMain.on('synchronous-message', (event, arg) => {
   console.log(arg)  // prints "ping"
   event.returnValue = 'pong valor retornado'
 })
+
+
+
+
+global.sharedObj = {
+    myvar: function() {
+
+        const objConnectionBaseA = objMysql.createConnection({
+            host     : "localhost",
+            user     : "backup",
+            password : "UniSeguro",
+            database : "adriano"
+        });
+
+        return mysql.getDatabases(
+            objConnectionBaseA
+        );
+        // return "aqui"
+    }
+};

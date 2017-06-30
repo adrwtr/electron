@@ -71,4 +71,28 @@ function createController(
     $scope.showSelected = function(obj) {
         console.log(obj);
     }
+
+    $scope.getTabelas = function()
+    {
+        const {remote} = require('electron');
+        var valor = remote.getGlobal('sharedObj').myvar();
+
+        valor.then(
+            function(arrResultado) {
+                $scope.dataForTheTree = new Array();
+
+                angular.forEach(
+                    arrResultado,
+                    function(value, key) {
+                        $scope.dataForTheTree.push(
+                            {
+                                "id" : key,
+                                "name" : value.ds_nome
+                            }
+                        );
+                    }
+                );
+            }
+        );
+    }
 }

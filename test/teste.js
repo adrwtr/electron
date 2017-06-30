@@ -1,8 +1,6 @@
 var assert = require('assert');
 var objMysql = require('mysql');
-
 const mysql = require('../services/mysql.js');
-
 
 const objConnectionBaseA = objMysql.createConnection({
     host     : "localhost",
@@ -20,8 +18,6 @@ describe(
         describe(
             '#getDatabases(objConexao)',
             function() {
-                console.log('Esta aqui');
-
                 it(
                     'Total de databases',
                     function(done) {
@@ -47,6 +43,8 @@ describe(
                                 done();
                             }
                         );
+
+                        // done();
                     }
                 );
             }

@@ -12,8 +12,13 @@
 
     <!-- libs -->
     <script type="text/javascript" src="vendor/angular-tree-control/angular-tree-control.js"></script>
-    <link rel="stylesheet" type="text/css" href="vendor/angular-tree-control/css/tree-control.css">
-    <link rel="stylesheet" type="text/css" href="vendor/angular-tree-control/css/tree-control-attribute.css">
+    <link rel="stylesheet" type="text/css" href="vendor/angular-tree-control/css/tree-control.css" />
+    <link rel="stylesheet" type="text/css" href="vendor/angular-tree-control/css/tree-control-attribute.css" />
+
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous" />
 
     <!-- main -->
     <script src="view/index.js" charset="utf-8"></script>
@@ -22,19 +27,26 @@
 <body ng-app="main_app"  ng-controller="Controller">
 
 
-
-
     <div class="window">
         <!-- .toolbar-header sits at the top of your app -->
         <header class="toolbar toolbar-header">
             <h1 class="title">janela 1</h1>
         </header>
 
+        <a href="#" ng-click="getTabelas()">
+            teste
+        </a>
+
         <!-- Your app's content goes inside .window-content -->
         <div class="window-content">
             <div class="pane-group">
 
                 <div class="pane pane-sm sidebar">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <input type="text" name="teste" class="form-control" />
+                        </div>
+                    </div>
                     <nav class="nav-group">
                         <h5 class="nav-group-title">Conexões</h5>
 
@@ -178,5 +190,10 @@
         </div>
     </div>
 </body>
+
+<script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
 
 </html>
