@@ -44,7 +44,7 @@
                 <div class="pane pane-sm sidebar">
                     <div class="row">
                         <div class="col-md-2">
-                            <input type="text" name="teste" class="form-control" />
+                            <input type="text" name="teste" class="form-control" ng-model="busca" />
                         </div>
                     </div>
                     <nav class="nav-group">
@@ -55,7 +55,8 @@
                             tree-model="dataForTheTree"
                             options="treeOptions"
                             on-selection="showSelected(node)"
-                            selected-node="node1">
+                            selected-node="node1"
+                            filter-expression="busca">
                             {{node.name}}
                         </treecontrol>
                     </nav>
