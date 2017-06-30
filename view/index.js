@@ -70,7 +70,7 @@ function createController(
 
     $scope.showSelected = function(obj) {
         console.log(obj);
-    }
+    };
 
     $scope.getTabelas = function()
     {
@@ -87,12 +87,33 @@ function createController(
                         $scope.dataForTheTree.push(
                             {
                                 "id" : key,
-                                "name" : value.ds_nome
+                                "name" : value.ds_nome,
+
+                                "children" : [
+                                    {
+                                        "id" : "2",
+                                        "name" : "Tabela 1",
+                                         "children" : [
+                                            {
+                                                "id" : "5",
+                                                "name" : "Tabela 15",
+                                            },
+                                            {
+                                                "id" : "6",
+                                                "name" : "Tabela 26",
+                                            },
+                                        ],
+                                    },
+                                    {
+                                        "id" : "3",
+                                        "name" : "Tabela 2",
+                                    },
+                                ],
                             }
                         );
                     }
                 );
             }
         );
-    }
+    };
 }

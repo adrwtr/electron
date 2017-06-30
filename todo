@@ -11,10 +11,10 @@ Testes a serem realizados:
         ✔ Listar databases, em html, formato navegavel e bonito @done (13-02-17 07:52)
         ✔ unit test buscar informações como databases e tabelas @done (20-02-17 07:55)
     Etapa 3:
-        ☐ Lista de databases em formato explorer
-            ☐ Lista de conexao
-            ☐ Lista de Bancos
-            ☐ Lista de tabelas
+        ✔ Lista de databases em formato explorer @done (30-06-17 11:22)
+            ✔ Lista de conexao @done (30-06-17 11:28)
+            ✔ Lista de Bancos @done (30-06-17 11:22)
+            ✔ Lista de tabelas @done (30-06-17 11:28)
 
 
 Milestones:
