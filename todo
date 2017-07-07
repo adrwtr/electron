@@ -15,21 +15,20 @@ Testes a serem realizados:
             ✔ Lista de conexao @done (30-06-17 11:28)
             ✔ Lista de Bancos @done (30-06-17 11:22)
             ✔ Lista de tabelas @done (30-06-17 11:28)
+    Etapa 4:
+        ☐ Permitir cadastrar uma conexão
+            ☐ Registrar as conexões
+            ☐ Exibir as conexões registradas
+            ☐ Tela de cadastro/alteração de conexões
 
-
-Milestones:
-    ☐ Lista de databases em formato explorer
-        ☐ Lista de conexao
-        ☐ Lista de Bancos
-        ☐ Lista de tabelas
-    ☐ Menu de ações rapidas (executar - database - conexao)
-    ☐ Editor com abas
-    ☐ Tabela de visualização
-
-
+    Progresso:
+         Instalado o sequelize para fazer o banco em sqlite
+         fazer a conexao e gerar o modelo da tabela de conexoes
 
 Comandos:
     d:\ | d:\programacao\git\electron
     npm update
     npm start
     npm test
+
+Instalação:
